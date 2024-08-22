@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #FFFFFF; /* White background */
@@ -7,25 +7,41 @@ body {
 }
 
 header {
-    background-color: #F8F8F8; /* Light gray background */
-    color: #34034F; /* Dark purple text */
+    background-color: #34034F; /* Dark purple background */
+    color: white;
     padding: 20px;
     text-align: center;
 }
 
 .profile-img {
-    width: auto; /* Maintain aspect ratio */
-    height: 200px; /* Set a fixed height */
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    margin: 10px auto;
-    display: block;
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #8A2BE2;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 section {
     margin: 20px;
     padding: 15px;
-    background: #F8F8F8; /* Light gray for sections */
-    border: 1px solid #DDD; /* subtle borders for separation */
+    background: #EEE; /* Light gray for sections */
     border-radius: 8px;
 }
 
@@ -34,9 +50,11 @@ footer {
     padding: 10px;
     background-color: #34034F;
     color: white;
-    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 a {
-    color: #8A2BE2; /* Link color */
+    color: #FFD700; /* Gold color for links */
 }
