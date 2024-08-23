@@ -38,6 +38,21 @@ section {
     border-radius: 8px;
 }
 
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.about-block {
+    text-align: center;
+}
+
+.about-block i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
 footer {
     text-align: center;
     padding: 10px;
